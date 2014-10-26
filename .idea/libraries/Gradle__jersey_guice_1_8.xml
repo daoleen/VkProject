@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: jersey-guice-1.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-guice/1.8/f4e7772030608e281bb39ffcc7028c2e430356e7/jersey-guice-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-guice/1.8/a123a4e913c9607474bf9cd3e7d19f168d6f13ac/jersey-guice-1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-guice/1.8/df0ec5aebb9c0e54de6406de73ab227f2c3959c6/jersey-guice-1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

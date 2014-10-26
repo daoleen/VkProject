@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: commons-daemon-1.0.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-daemon/commons-daemon/1.0.15/275b3f1efc36c6a5c276440a96a489f4ff90fa8a/commons-daemon-1.0.15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-daemon/commons-daemon/1.0.15/721c1b07a2b07d114b01c3268dbdbb8eca0facaa/commons-daemon-1.0.15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-daemon/commons-daemon/1.0.15/be9e3caa33ab36521b0cbdc8df9188ca416cd1df/commons-daemon-1.0.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : VkProject : VkProject-1.0.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/VkProject/exploded/VkProject-1.0.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="VkProject/web/Web Gradle : VkProject-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="VkProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: gson-2.2.4" />
+          <element id="library" level="project" name="Gradle: log4j-1.2.17" />
+          <element id="library" level="project" name="Gradle: jettison-1.3.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/VkProject/exploded/VkProject-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

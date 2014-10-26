@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    provided
+    provided.extendsFrom(compile)
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'log4j:log4j:1.2.17'
+    providedCompile 'org.apache.hadoop:hadoop-mapreduce:0.23.10'
+    providedCompile 'org.apache.hadoop:hadoop-core:1.2.1'
+    providedCompile 'org.apache.commons:commons-io:1.3.2'
+    providedCompile 'commons-daemon:commons-daemon:1.0.15'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile files('lib/jettison-1.3.5.jar')
+}
+
+jar {
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest { attributes 'Main-Class': 'Main', 'Class-Path': 'lib/jettison-1.3.5.jar' }
+}
+
+idea {
+    module {
+        scopes.PROVIDED.plus += configurations.provided
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
